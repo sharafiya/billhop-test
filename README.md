@@ -32,7 +32,8 @@ npm install && npm start
 the app will be loaded in 
 http://localhost:3000/
 
-
+The app is available live on
+https://billhop-test.netlify.app/
         
 
 
