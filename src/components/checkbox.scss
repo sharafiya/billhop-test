@@ -1,0 +1,36 @@
+.form-check {
+    margin-top: 10px;
+}
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+}
+
+
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    display: inline-block;
+}
+.form-check-input:checked {
+    background-color: #ed6663;
+    border-color:#ed6663
+}
+.col-check{
+    margin: 5px;
+}
+.form-check-label{
+    display: inline;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+

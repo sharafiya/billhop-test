@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import './translator-component.css'
-import Joke from './joke-component'
+import './translator-component.scss';
+import Joke from "./joke-component";
 class Translator extends Component {
     constructor(props){
         super(props);
@@ -28,7 +28,6 @@ class Translator extends Component {
     
       handleSubmit(event){
         let text = "";
-    
         if (this.state.english === ""){
           text = this.state.robbers;
           this.translateToEnglish(text);
@@ -36,7 +35,6 @@ class Translator extends Component {
           text = this.state.english;
           this.translateToRobbers(text);
         }
-    
         event.preventDefault();
       }
     
@@ -57,6 +55,7 @@ class Translator extends Component {
           } else {
             translatedString += text.charAt(i);
           }
+          
           this.setState({
             robbers: translatedString
           });
@@ -118,7 +117,7 @@ class Translator extends Component {
             </button>
           </div>
           </form>
-         
+          <Joke />
         </div>)
     }
 }

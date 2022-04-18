@@ -1,0 +1,146 @@
+.joke{
+    margin-left:auto ;
+    margin-right: auto;
+    width: 70%;
+}
+
+.row {
+        display: flex;
+        justify-content: center;
+}
+.get-but {
+  display: flex;
+  justify-content: center;
+}
+.joke h3{
+    text-align: center;
+    margin: 0;
+}
+.col{
+    margin: 10px;
+}
+.row h5{
+text-align: center;
+color: #ed6663;
+}
+
+.type-search {
+    margin-left: 15px;
+    height: 30px;
+    width: 200px;
+    align-self: center;
+    border: 2px solid #4b4646;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.get{
+    color:whitesmoke;
+    background-color: #ed6663;
+    margin-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f5f5f5 #eee #d5d5d5 #eee;
+    height: 36px;
+    width:77px;
+    border-radius: 8px;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+  }
+
+  .type-amount {
+    margin-left: 15px;
+    height: 30px;
+    width: 50px;
+    align-self: center;
+    border: 2px solid #4b4646;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.box {
+    display: block;
+    overflow: auto;
+    height: 400px;
+    width: fit-content;
+    margin: auto;
+  }
+  .box h4{
+    color: #ed6663;
+    font-size: large;
+    text-align: center;
+  }
+    
+    .card {
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+      border-radius: 1em;
+      background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+     margin-block: 1rem;
+    gap: 2rem;
+    margin-bottom: 10px;
+    
+    }
+    
+    
+    
+    .card__body {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card__body h4 {
+      font-size: 1.5rem;
+      text-transform: capitalize;
+    }
+    
+    .joke-but{
+      color: whitesmoke;
+      background-color: #ed6663;
+      /* margin-left: 10px; */
+      border-width: 1px;
+      margin-top: 10px;
+      border-style: solid;
+      border-color: #f5f5f5 #eee #d5d5d5 #eee;
+      height: 23px;
+      width: 70px;
+      border-radius: 8px;
+      }
+      .jokes{
+        color:whitesmoke;
+        background-color: #ed6663;
+        margin-left: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #f5f5f5 #eee #d5d5d5 #eee;
+        height: 36px;
+        width:77px;
+        border-radius: 8px;
+      }
+
+      @media screen and (max-width :1200px) and (min-width:400px) {
+      
+        .col {
+          width:fit-content;
+          margin: auto;
+      }
+
+      .row{
+        display: inline;
+      }
+      .card{
+         margin: 5;
+      }
+      .get{
+        margin-left: 0;
+        margin-top: 10px;
+      }
+
+      }
